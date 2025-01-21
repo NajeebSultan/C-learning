@@ -28,7 +28,7 @@ int main() {
         // Taking input for employee details
         cout << "Employee ID: ";
         cin >> employees[i].employeeID;
-        cin.ignore();  // To ignore the newline character left by cin
+        
         
         cout << "Employee Name: ";
         getline(cin, employees[i].employeeName);
@@ -49,7 +49,7 @@ int main() {
         cout << "Medical Allowance: ";
         cin >> employees[i].salary.medical;
 
-        cout << endl; // Blank line for readability
+        cout << endl; 
     }
 
     // Displaying records of employees with basic salary greater than 50000
